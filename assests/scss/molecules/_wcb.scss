@@ -1,0 +1,47 @@
+.be-emptest{
+    text-align: center;
+    
+    
+   
+}
+
+
+.be-emptest1{
+    &_h2{
+color: #10385B;
+font-family: Poppins;
+font-size:bold;
+font-weight:10%;
+
+padding: 30px;
+
+
+    }
+    &_P{
+color: #666666;
+
+padding: 10px;
+    }
+}
+@include mobile{
+    .be-emptest{
+        text-align: justify;
+        padding: 20px;
+        
+        
+       
+    }
+    
+
+}
+@include tablet{
+    .be-emptest{
+        text-align: justify;
+        padding: 20px;
+        
+        
+       
+    }
+    
+
+}

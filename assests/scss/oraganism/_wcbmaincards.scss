@@ -1,0 +1,52 @@
+.be-benifits{
+   
+    background-color: rgb(199, 204, 202);
+   height:60%;
+    background-size: cover;
+    max-width: 100%;
+    
+}
+.be-benifits2_f1{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+    
+   
+}
+@include mobile{
+    .be-benifits{
+   
+        background-color: rgb(199, 204, 202);
+        position: relative;
+        top:2500px;
+        
+    }
+    .be-benifits2_f1{
+        display: block;
+        padding-left: 30px;
+        padding-right: 30px;
+        height:100px;
+       
+        
+       
+    }
+}
+@include tablet{
+    .be-benifits{
+   
+        background-color: rgb(199, 204, 202);
+        position: relative;
+        top:2500px;
+        
+    }
+    .be-benifits2_f1{
+        display: block;
+        padding-left: 30px;
+        padding-right: 30px;
+        height:100px;
+       
+        
+       
+    }
+}

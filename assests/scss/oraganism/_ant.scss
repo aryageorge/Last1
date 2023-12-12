@@ -1,0 +1,74 @@
+.be-vision{
+    background-image: url('/assests/images/WhatsApp\ Image\ 2023-12-12\ at\ 10.39.09\ AM.jpeg');
+    
+padding-top:50px;
+     padding-left: 80px;
+   background-size: cover;
+  
+ max-width: 100%;
+background-position:center;
+    
+ 
+     
+&_h1{
+padding-bottom:20px;
+color: azure;
+padding-top:10px;
+font-family: Poppins;
+font-size: 38px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+
+
+
+
+}
+&_p{
+color: azure;
+padding-bottom:50px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+
+
+}
+&_img{
+    width:28px;
+    height: 25px;
+    position: relative;
+    bottom:40px;
+}
+&_h6{
+    color: rgb(26, 138, 229);
+    padding-left:40px;
+        position: relative;
+        bottom:60px;
+        
+}
+&_h6:hover{
+    text-decoration: underline;
+}
+&_img1{
+    width: 30px;
+    height: 20px;
+    position: relative;
+        bottom:35px;
+        
+}
+}
+     
+    
+     
+ 
+ @include mobile{
+    .be-vision{
+        display: block;
+        padding: 20px;
+        width: 100%;
+    }
+}
+ 
+ 

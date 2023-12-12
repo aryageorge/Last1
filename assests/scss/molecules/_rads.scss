@@ -1,0 +1,119 @@
+.be-rads{
+    display: flex;
+    margin: 10px;
+}
+
+.be-rad2_1{
+    display: flex;
+    &_ins{
+        width:80px;
+        height: 39px;
+        padding: 10px;
+        position: relative;
+        bottom: 19px;
+        right:10px;
+        bottom:6px;
+    }
+    &_code{
+        width:270px;
+        height:39px;
+        padding: 10px;
+        padding-left:10px;
+        position: relative;
+        right:140px;
+       bottom:3px;
+       
+    }
+    &_imgs{
+    
+            width:20px;
+            height:20px;
+            position: relative; 
+            right:310px;margin-top:11px;
+           
+        
+    }
+    
+}
+@include mobile{
+    .be-rads{
+        display:block;
+        margin: 0px;
+        padding-bottom: 10px;
+        
+    }
+
+    .be-rad2_1{
+        display:block;
+        &_ins{
+            width:115px;
+            height: 39px;
+            padding: 0px;
+           
+            left:50px;
+            right:10px;
+           
+            
+        }
+        &_code{
+            width:50px;
+            height:39px;
+            padding: 0px;
+            padding-left:0px;
+           
+        }
+        &_imgs{
+        
+                width:20px;
+                height:20px;
+                position: relative; 
+                right:38px;margin-top:12px;
+                top: 0px;
+              
+               
+            
+        }
+        
+    }
+}
+@include tablet{
+    .be-rads{
+        display:block;
+        margin: 0px;
+        padding-bottom: 10px;
+        
+    }
+
+    .be-rad2_1{
+        display:block;
+        &_ins{
+            width:115px;
+            height: 39px;
+            padding: 0px;
+           
+            left:50px;
+            right:10px;
+           
+            
+        }
+        &_code{
+            width:50px;
+            height:39px;
+            padding: 0px;
+            padding-left:0px;
+           
+        }
+        &_imgs{
+        
+                width:20px;
+                height:20px;
+                position: relative; 
+                right:38px;margin-top:12px;
+                top: 0px;
+              
+               
+            
+        }
+        
+    }
+}

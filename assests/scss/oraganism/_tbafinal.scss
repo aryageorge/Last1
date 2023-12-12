@@ -1,0 +1,31 @@
+
+
+.be-benifits2{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+    height: 350px;
+    position: relative;
+bottom: 430px;
+    
+    z-index: 3;
+}
+@include mobile{
+    .be-benifits2{
+        display: block;
+        position: relative;
+        bottom: 0px; 
+        padding-left: 0px;
+    padding-right: 0px;
+    }
+}
+@include tablet{
+    .be-benifits2{
+        display: block;
+        position: relative;
+        bottom: 0px; 
+        padding-left: 0px;
+    padding-right: 0px;
+    }
+}

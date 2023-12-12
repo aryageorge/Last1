@@ -1,0 +1,61 @@
+.be-benifitcards{
+    box-sizing: border-box;
+    background-color: rgb(24, 103, 193);
+   height:460px;
+    text-align: justify;
+   padding: 35px;
+   margin: 20px;
+   
+    
+    
+    &_h5{
+        color:  #e8f0f7;
+        padding: 5px;
+        
+       
+        
+        
+    }
+    &_p{
+        padding-top:8px; 
+        color:#f4f0f0;
+        opacity: 50%;
+       
+        
+    }
+    &_img{
+       
+        width:55px ;
+        height:65px;
+        
+    }
+   
+}
+@include mobile{
+   
+
+.be-benifitcards{
+    box-sizing: border-box;
+    background-color: rgb(111, 128, 183);
+   height:400px;
+    text-align: justify;
+   padding: 10px;
+   width:300px;
+
+   
+}
+}
+@include tablet{
+    
+    .be-benifitcards{
+        box-sizing: border-box;
+        background-color: rgb(111, 128, 183);
+       height:400px;
+        text-align: justify;
+       padding: 10px;
+       width:300px;
+    
+       
+    }
+
+}

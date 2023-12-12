@@ -1,0 +1,83 @@
+.be-acahead{
+    margin:10px;
+  
+    
+
+
+
+}
+.be-acahead1{
+    margin-left:65px;
+
+    
+    &_h2{
+        margin-top: 10px;
+        color: #10385B;
+        
+        
+
+    }
+
+    &_h6{
+        color: #10385B;
+    }
+      
+        
+    
+    
+    
+}
+.be-acahead1{
+
+&_h6:after{
+    
+    content:  "";
+
+    border: 1px solid rgb(60, 125, 143);
+   width:14%;
+    position: absolute;
+    //right: 102%;
+    margin-left: -3px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+   
+    
+}
+
+    
+} 
+@include mobile{
+    .be-acahead{
+        margin:0px;
+        padding: 20px;
+        
+      
+        
+    
+    
+    
+    }
+    .be-acahead1{
+        margin-left:0px;
+        
+    
+        
+        &_h2{
+            margin-top: 10px;
+            color: #10385B;
+            
+            
+    
+        }
+    
+        &_h6{
+            color: #10385B;
+        }
+          
+            
+        
+        
+        
+    }  
+} 

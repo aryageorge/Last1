@@ -1,0 +1,53 @@
+.be-rad2{
+    display: flex;
+    margin: 20px;
+}
+    .be-rad2_1{
+    &_in{
+        width:350px;
+        height:39px;
+        padding: 10px;
+        padding-left:10px;
+    }
+    &_img{
+        width:20px;
+        height:20px;
+        position: relative; 
+        right:40px;margin-top:8px;
+       
+    }
+}
+@include mobile{
+
+    .be-rad2{
+        display: flex;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .be-rad2_1{
+        &_in{
+            width:160px;
+            height:39px;
+            padding: 0px;
+            padding-left:0px;
+        }
+        
+}
+}
+@include tablet{
+
+    .be-rad2{
+        display: flex;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .be-rad2_1{
+        &_in{
+            width:160px;
+            height:39px;
+            padding: 0px;
+            padding-left:0px;
+        }
+        
+}
+}

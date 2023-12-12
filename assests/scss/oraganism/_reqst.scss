@@ -1,0 +1,93 @@
+.be-reqademo{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 20px;
+   
+    
+    padding-left: 40px;
+    
+}
+.open{
+    background-color:#CACACA;
+    width: 1px;
+    height:350px;
+    margin-top:50px;
+    position: relative;
+    right:150px;
+}
+
+
+.be-reqademo_header{
+    margin-right:60px;
+   &_h3{
+    margin-top: 60px;
+    color: #10385B;
+    font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 42px;
+letter-spacing: 0em;
+
+
+   }
+   &_p{
+    margin-top: 40px;
+    padding-top: 20px;
+    color: #000000;
+   }
+}
+.be-rad1_header{
+&_h2{
+    color:#10385B ;
+    font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+}
+
+
+
+@include mobile{
+    .be-reqademo{
+        display: block;
+        padding-left: 10px;
+        position: relative;
+        top:3800px;
+        
+        
+    }
+    .open{
+        background-color:#CACACA;
+        width: 1px;
+        height:30px;
+        margin-top:0px;
+        position: relative;
+        right:0px;
+    }
+    
+
+}
+@include tablet{
+    .be-reqademo{
+        display: block;
+        padding-left: 10px;
+        position: relative;
+        top:3800px;
+        
+        
+    }
+    .open{
+        background-color:#CACACA;
+        width: 1px;
+        height:30px;
+        margin-top:0px;
+        position: relative;
+        right:0px;
+    }
+    
+
+}
